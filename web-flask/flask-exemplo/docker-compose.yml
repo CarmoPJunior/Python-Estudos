@@ -1,0 +1,14 @@
+version: '3'
+services:
+  docker-app:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    image: flask_app
+    # restart: on-failure
+    ports:
+      - "8081:8081"
+    environment:
+      - PORT=8081
+    
+ 

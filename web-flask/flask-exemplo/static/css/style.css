@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    display:flex;
+    justify-content:center;
+    margin-bottom:30px;
+    padding: 19px 0px;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    background-color: #FFF;
+  
+}
+
+.navbar h1 {
+    color: #342d89;
+    font-weight: 900;
+    font-size: 49px;
+    padding: 36px, 20px;
+    
+}
+
+section{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 5px 0px; 
+    width: 100%;
+    height: 350px;
+    background-color: #FFF;
+}
+
+.container .img img{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10%;
+    margin-right: 20%;
+    width:40vw;
+    border-radius:0.3rem;
+   }
+
+.form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 4%;
+    margin-right: 10%;
+    width:30%;
+    border-radius:0.8rem;
+   }
+
+   
+
+   .btn-upload{
+    display: block;
+
+  }
+   
+input, .btn-upload{
+    width:60%;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    background: #342d89;
+    color:#f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px,10px, 40px #00000056;
+    outline:none;
+    cursor:pointer;
+    box-sizing: border-box;
+}
+
+input[type='file'] {
+    display: none
+}
+    
+      
+.btn-upload:hover, .input-submit:hover {
+  background-color: #1b1462
+}
+
+/* Esconde o input */
+input[type='file'] {
+  display: none
+}
+
+/* Aparência que terá o seletor de arquivo */
+label {
+  background-color: #3498db;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  padding: 6px 20px
+}
+
+footer {
+    display: inline-flex;
+    justify-content:center;
+    width: 100%;
+    height: 150px;
+    padding: 5px 10px;
+    background-color: rgb(141, 207, 186);
+  
+}
+
+footer h3 {
+    color:   #342d89;
+    font-size: 40px;
+    margin-left: 15px;
+    margin-top: 15px;
+    
+}
+
+footer p {
+    color: #161616; 
+    font-size: 15px;
+    font-weight:500;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
